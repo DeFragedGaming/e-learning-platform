@@ -4,10 +4,10 @@ const mysql = require('promise-mysql');
 
 const createTcpPool = async config => {
   const dbConfig = {
-    socketPath: 'green-campaign-427512-s1:us-central1:mysql-instance', 
-    user: 'root',      
-    password: 'DeFraged#2020',  
-    database: 'elearning'       
+    socketPath: '', 
+    user: '',      
+    password: '',  
+    database:  ''      
     
   };
 
